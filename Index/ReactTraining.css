@@ -1,0 +1,67 @@
+#overlay {
+	position: fixed;    
+	width: 100%; 
+	height: 100%; 
+	top: 0; 
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 2; 
+	cursor: pointer; 
+}
+
+#text{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-size: 50px;
+	color: white;
+	transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	font-family: Arial;
+}
+
+input{
+	height: 50px;
+	border-radius: 10px;
+	margin-right: 10px;
+	font-family: Arial;
+	font-size: 19px;
+}
+
+h3{
+	font-family: Arial;
+}
+
+p{
+	font-family: Arial;
+}
+
+button:enabled{
+	cursor: pointer;
+	box-shadow: rgb(159, 180, 242) 0px 0px 0px 2px;
+	background: linear-gradient(rgb(120, 146, 194) 5%, rgb(71, 110, 158) 100%) rgb(120, 146, 194);
+	border-radius: 10px;
+	border: 1px solid rgb(78, 96, 150);
+	display: inline-block;
+	cursor: pointer;
+	color: rgb(255, 255, 255);
+	font-family: Arial;
+	font-size: 19px;
+	padding: 12px 37px;
+	text-decoration: none;
+	text-shadow: rgb(40, 57, 102) 0px 1px 0px;
+}
+
+button:disabled{
+	background-color: rgb(169, 169, 169);
+	border-radius: 10px;
+	border: 1px solid rgb(78, 96, 150);
+	display: inline-block;
+	color: rgb(255, 255, 255);
+	font-family: Arial;
+	font-size: 19px; 
+	padding: 12px 37px; 
+	text-decoration: none;
+	text-shadow: rgb(40, 57, 102) 0px 1px 0px;}
