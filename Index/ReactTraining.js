@@ -233,7 +233,7 @@ class App extends React.Component {
 			<Header />
 			<CForm />
 			{this.props.overAnswer == ""
-				? <Encourage props={this.props}/>
+				? <Encourage buttonName={this.props}/>
 				: <COverlay />}
 		</div>
 		);

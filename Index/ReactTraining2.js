@@ -283,7 +283,7 @@ var App = function (_React$Component3) {
 								null,
 								React.createElement(Header, null),
 								React.createElement(CForm, null),
-								this.props.overAnswer == "" ? React.createElement(Encourage, { props: this.props }) : React.createElement(COverlay, null)
+								this.props.overAnswer == "" ? React.createElement(Encourage, { buttonName: this.props.buttonName }) : React.createElement(COverlay, null)
 						);
 				}
 		}]);
