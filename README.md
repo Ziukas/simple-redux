@@ -51,9 +51,9 @@ The original *ReactTraining.js* is also included and commented out in the **inde
 but not all browsers suport running babel.js locally. Firefox does.
 
 Had to mock up backend responses for this one, used https://getsandbox.com/
-http://temppatientdata.getsandbox.com/person/{name}
-http://temppatientdata.getsandbox.com/facility/{name}
-http://temppatientdata.getsandbox.com/exposure/{name}
++ http://temppatientdata.getsandbox.com/person/{name}
++ http://temppatientdata.getsandbox.com/facility/{name}
++ http://temppatientdata.getsandbox.com/exposure/{name}
 
 The code for backend side is simple, and should be downloadable from getsandbox git:
 https://git.getsandbox.com/temppatientdata.git
