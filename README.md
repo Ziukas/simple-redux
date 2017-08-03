@@ -46,7 +46,7 @@ and 10 characters long.
 5. Feel free to style the page as nicely as you like.
 
 ## Comments on Solution and lessons learned
-Wrote the code using babel syntax and learned that babel takes issue with recompiling .js files with some browsers. Had to recompile *ReactTraining.js* into **ReactTraining2.js** by babel before uploading, which is used instead of both *babel.js* and *ReactTraining.js*.
+Wrote the code using babel syntax and learned that babel takes issue with recompiling .js files on the fly with some browsers. Had to recompile *ReactTraining.js* into **ReactTraining2.js** by babel before uploading, which is used instead of both *babel.js* and *ReactTraining.js*.
 The original *ReactTraining.js* is also included and commented out in the **index.html**. It's possible to switch back to using it,
 but not all browsers suport running babel.js locally. Firefox does.
 
