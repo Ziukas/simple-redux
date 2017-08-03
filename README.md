@@ -60,11 +60,10 @@ https://git.getsandbox.com/temppatientdata.git
 
 I'll add the folder **getsandbox** to include this code, too.
 
-As per requirements, the index.html loads up a simplistic page with one field and button:
-![alt text](https://i.imgur.com/GmLbir7.png "button is disabled")
++ As per requirements, the index.html loads up a simplistic page with one field and button:
+![alt text](https://i.imgur.com/NJ6aILC.png "button is disabled")
 + If the field contains between 1 and 10 alphabetical characters, the button is enabled.
-![alt text](https://i.imgur.com/cqxcOB3.png "button is enabled")
+![alt text](https://i.imgur.com/j1z93PF.png "button is enabled")
 + Upon button press, the calls begin (the input field is cleared and the button is disabled again).
 + The final outcome of the calls is logged into console, and then the overlay appears, containing only multiplied result of val3 * val4 appears. In this mocked case, it's always 1110 * 0.7, ending up in 777.
-
 
