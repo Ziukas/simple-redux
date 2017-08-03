@@ -60,6 +60,7 @@ https://git.getsandbox.com/temppatientdata.git
 
 I'll add the folder **getsandbox** to include this code, too.
 
+## Workflow
 + As per requirements, the index.html loads up a simplistic page with one field and button:
 ![alt text](https://i.imgur.com/NJ6aILC.png "button is disabled")
 + If the field contains between 1 and 10 alphabetical characters, the button is enabled.
