@@ -14,6 +14,7 @@ and 10 characters long.
 > http://fubar.com/person/$input$
 > pass the input value in place of $input$
 > The service will respond with the following structure
+
 > {
 > "val1" : "",
 > "val2" : ""
@@ -24,6 +25,7 @@ and 10 characters long.
 > http://fubar.com/facility/$val1$
 > pass in val1 from call to person as $val1$
 > returns
+
 > {
 > "val3" : "",
 > "val4" : ""
@@ -33,6 +35,7 @@ and 10 characters long.
 >http://fubar.com/exposure/$val2$
 >pass in val2 from call to person as $val2$
 >returns
+
 >{
 >"val5" : ""
 >}
