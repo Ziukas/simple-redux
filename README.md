@@ -68,4 +68,4 @@ I'll add the folder **getsandbox** to include this code, too.
 + Upon button press, the calls begin (the input field is cleared and the button is disabled again).
 + The final outcome of the calls is logged into console, and then the overlay appears, containing only multiplied result of val3 * val4 appears. In this mocked case, it's always 1110 * 0.7, ending up in 777.
 ![alt text](https://i.imgur.com/4j0Svl9.png "overlay")
-+Upon clicking the overlay, the state is reset to the default state of the app, bringing us full circle
++ Upon clicking the overlay, the state is reset to the default state of the app, bringing us full circle
