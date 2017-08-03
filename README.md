@@ -1,6 +1,7 @@
 # React-Redux training exercise
-Contains a simple react-redux page, runs localy, no need for server.
-Open index.html locally to start.
+Contains a simple react-redux page, runs locally, no need for server.
+
+####  Open *index.html* locally to start.
 
 ## Original Requirements
 
@@ -14,32 +15,49 @@ and 10 characters long.
 > http://fubar.com/person/$input$
 > pass the input value in place of $input$
 > The service will respond with the following structure
-
-> {
-> "val1" : "",
-> "val2" : ""
-> }
-
+```
+ {
+   "val1" : "",
+   "val2" : ""
+ }
+```
 
 #### call
 > http://fubar.com/facility/$val1$
 > pass in val1 from call to person as $val1$
 > returns
-
-> {
-> "val3" : "",
-> "val4" : ""
-> }
-
+```
+ {
+  "val3" : "",
+  "val4" : ""
+ }
+```
 #### call
 >http://fubar.com/exposure/$val2$
 >pass in val2 from call to person as $val2$
 >returns
-
->{
->"val5" : ""
->}
-
+```
+ {
+  "val5" : ""
+ }
+```
 3. Upon completion of this chain show an overlay that contains the result of multiplying val3 by val4.
 4. You will need to provide your own mock implementation of the service end-points.
 5. Feel free to style the page as nicely as you like.
+
+## Comments on Solution and lessons learned
+Wrote the code using babel syntax and learned that babel takes issue with recompiling .js files with some browsers. Had to recompile *ReactTraining.js* into **ReactTraining2.js** by babel before uploading, which is used instead of both *babel.js* and *ReactTraining.js*.
+The original *ReactTraining.js* is also included and commented out in the **index.html**. It's possible to switch back to using it,
+but not all browsers suport running babel.js locally. Firefox does.
+
+Had to mock up backend responses for this one, used https://getsandbox.com/
+http://temppatientdata.getsandbox.com/person/{name}
+http://temppatientdata.getsandbox.com/facility/{name}
+http://temppatientdata.getsandbox.com/exposure/{name}
+
+The code for backend side is simple, and should be downloadable from getsandbox git:
+https://git.getsandbox.com/temppatientdata.git
+
+I'll add the folder **getsandbox** to include this code, too.
+
+
